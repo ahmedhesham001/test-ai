@@ -1,0 +1,90 @@
+{
+  "theme": {
+    "mode": "dark",
+    "colors": {
+      "background": "#000000",
+      "textPrimary": "#FFFFFF",
+      "textSecondary": "#CCCCCC",
+      "accent": "#00A8FF",
+      "overlay": "rgba(0, 0, 0, 0.6)"
+    },
+    "fonts": {
+      "heading": "'PP Neue Montreal', sans-serif",
+      "body": "'PP Formula', sans-serif"
+    }
+  },
+  "layout": {
+    "maxWidth": "1200px",
+    "padding": "40px",
+    "sectionsGap": "80px",
+    "gridColumns": 12
+  },
+  "typography": {
+    "heading": {
+      "size": "4rem",
+      "weight": 700,
+      "lineHeight": 1.2
+    },
+    "subheading": {
+      "size": "2rem",
+      "weight": 500
+    },
+    "body": {
+      "size": "1rem",
+      "weight": 400,
+      "color": "#CCCCCC"
+    }
+  },
+  "components": {
+    "navbar": {
+      "position": "fixed",
+      "top": 0,
+      "bgColor": "rgba(0,0,0,0.8)",
+      "linkColor": "#FFFFFF",
+      "linkHoverColor": "#00A8FF"
+    },
+    "hero": {
+      "bgImage": "full-screen portrait",
+      "overlayColor": "rgba(0,0,0,0.5)",
+      "titleSplit": true,
+      "subtitle": "web3 • creative • web apps",
+      "ctaStyle": {
+        "bg": "#00A8FF",
+        "textColor": "#000000",
+        "hoverBg": "#008FCC"
+      }
+    },
+    "about": {
+      "layout": "two-column",
+      "imageRadius": "8px",
+      "textColor": "#CCCCCC",
+      "highlightColor": "#00A8FF"
+    },
+    "services": {
+      "listStyle": "vertical",
+      "iconColor": "#00A8FF",
+      "textColor": "#FFFFFF"
+    },
+    "work": {
+      "projectsPerRow": 2,
+      "cardBg": "#111111",
+      "cardBorder": "1px solid #222222",
+      "hoverEffect": "lift + glow border #00A8FF"
+    },
+    "footer": {
+      "bg": "#000000",
+      "textColor": "#888888",
+      "linkColor": "#FFFFFF",
+      "padding": "40px 0"
+    }
+  },
+  "animations": {
+    "scrollReveal": "fade-up",
+    "hoverTransition": "transform .3s ease",
+    "btnHover": "background .3s ease"
+  },
+  "extras": {
+    "cursor": "custom light circle",
+    "smoothScroll": true
+  }
+}
